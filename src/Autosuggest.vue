@@ -2,6 +2,7 @@
   <div :id="componentAttrIdAutosuggest">
     <input 
       v-model="searchInput"
+      spellcheck="true"
       type="text"
       :autocomplete="inputProps.autocomplete"
       role="combobox"
